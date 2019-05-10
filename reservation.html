@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Some important meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale = 1">
+
+    <!-- Title and icon -->
+    <title>Visol | Reservatioin</title>
+
+    <link rel="shortcut icon" href="resources/icon.jfif">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
+
+
+    <!-- Responsive Tabs -->
+    <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.css">
+
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    
+</head>
+    <body>
+         <!-- Navbar -->
+    <header>
+        <!-- Top menu -->
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="resources/logo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item scroll-link">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link disabled" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reserve">Reserve Now</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa fa-user-o fa-2x"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+       <section id="home">
+        <div class="top-content">
+       		<div class="row no-gutters">
+       			<div class="col">
+       				<div id="carousel-example" class="carousel slide" data-ride="carousel">
+       					<div class="carousel-inner">
+       						<div class="carousel-item active">
+       							<img src="resources/reservation/bg%20photo.jpg" class="d-block w-100" alt="img1">
+								<div class="carousel-caption">
+									 <!-- Home Content -->
+                                    <div id="home-content">
+
+                                        <div id="home-content-inner" class="text-center">
+
+                                            <div id="reservation-heading">
+                                                <h1 id="home-heading-1">Welcome</h1>
+                                            </div>
+
+                                            <div id="home-image">
+                                                <img src="resources/slider/figure.svg">
+                                            </div>
+
+                                            <div id="home-btn">
+                                                <a class="btn btn-general btn-home" href="#reserve" title="Start Now" role="button">Start</a>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                   
+                                </div>
+       						</div>
+           
+       				     </div>
+       			</div>
+       		</div>
+        </div>
+        </div>
+    </section>
+    <img id="pattern" src="resources/slider/pattern.svg">
+        <!-- Reservation Begins -->
+
+	
+
+        <section class="reservation" id="reserve">
+                    <br/><br/>
+                    <div class="container">
+                        <div class="reserve-heading">
+                            <h3 class="baxtli">Start the Reservation</h3>
+                            <div class="lets" style=""><img src="Resources/services/logo.svg" alt=""></div>
+                        </div>
+                    </div>
+
+        <div class="container mt-3">
+
+        <!-- PART 1 -->
+
+        <form action="" class="needs-validated">
+          <fieldset>
+                <legend class="baxtli"><h4>Contact Information:</h4></legend>
+            <div class="reserve-line" style=""><img src="resources/about/nike2.svg" alt=""></div>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Your name</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Enter your First Name" minlength="3" pattern="[A-Za-z]+" required>
+              <input type="text" class="form-control" placeholder="Enter your Last Name" minlength="3" pattern="[A-Za-z]+" required>
+            </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Phone number</span>
+            </div>
+            <input type="tel" class="form-control" placeholder="Format: 971234567 (9-digit number)" pattern="[0-9]{9}" required>
+          </div>
+         </fieldset>
+
+        <fieldset>
+            <legend class="baxtli"><h4>Wedding Information:</h4></legend>
+            <div class="reserve-line" style=""><img src="resources/about/nike2.svg" alt=""></div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Date of Wedding</span>
+            </div>
+            <input type="date" class="form-control" required>
+          </div>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Groom name</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Groom Name" minlength="3" pattern="[A-Za-z]+" required>
+              <div class="input-group-prepend">
+                <span class="input-group-text">Bride name</span>
+              </div>
+              <input type="text" class="form-control" placeholder="Bride Name" minlength="3" pattern="[A-Za-z]+" required>
+            </div>
+
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Number of Guests</span>
+            </div>
+            <input type="number" class="form-control" min="25" max="400" placeholder="Minimum: 25 | Maximum: 400" required>
+          </div>
+         </fieldset>
+
+
+
+        <!-- PART 2 -->
+
+
+        <fieldset>
+                <legend class="baxtli"><h4>Catering:</h4></legend>
+            <div class="reserve-line" style=";"><img src="resources/about/nike2.svg" alt=""></div>
+        <div id="paket" style="">
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx" checked="true">
+            <label class="custom-control-label" for="customRadio">Lite</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio2">Gold</label>
+          </div>
+          <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" class="custom-control-input" id="customRadio3" name="example" value="customEx">
+            <label class="custom-control-label" for="customRadio3">Premium</label>
+          </div>
+        </div>
+
+        <!-- R O U G H -->
+
+
+        <div class="col-lg-12">
+            <ul>
+        <li>Dinnerware Set:</li> <!-- For Lite: Classic White Porcelain Dinnerware; For Gold: Gold Line Porcelain Dinnerware; For Premium: Elegance Porcelain Dinnerware LINK: https://www.webstaurantstore.com/23001/porcelain-dinnerware.html -->
+        <li>Salads:</li> <!-- 1. Olivye 2. Caesar 3. Niçoise 4. Secret Garden 5. Greek Salad -->
+        <li>Included:</li>
+        <li>Dessert:</li>
+        </ul>
+        </div>
+
+        <br/>
+
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">First Meal</span>
+              </div>
+            <select name="firstmeal" class="custom-select">
+              <option selected value="manpar">Manpar</option>
+              <option value="mokhora">Mokhora</option>
+              <option value="kuzasoup">Kuza Soup</option>
+              <option value="chickensoup">Chicken Soup</option>
+            </select>
+              <div class="input-group-prepend">
+                <span class="input-group-text">Second Meal</span>
+              </div>
+            <select name="secondmeal" class="custom-select">
+              <option selected value="brochette">Brochette</option>
+              <option value="blackangus">Black Angus</option>
+              <option value="lambrack">Lamb Rack</option>
+              <option value="grilledchicken">Grilled Chicken</option>
+            </select>
+            </div>
+
+        </fieldset>
+
+        <!-- ADDITIONAL SERVICES -->
+
+        <fieldset>
+                <legend class="baxtli"><h4>Additional Services:</h4></legend>
+            <div class="reserve-line" style=""><img src="resources/about/nike2.svg" alt=""></div>
+        <div class="row">
+            <div class="custom-control custom-checkbox mb-3 col">
+              <input type="checkbox" class="custom-control-input" id="customCheck1" name="example1">
+              <label class="custom-control-label" for="customCheck1">Music Light Show</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-3 col">
+              <input type="checkbox" class="custom-control-input" id="customCheck2" name="example1">
+              <label class="custom-control-label" for="customCheck2">Projection Screens</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-3 col">
+              <input type="checkbox" class="custom-control-input" id="customCheck3" name="example1">
+              <label class="custom-control-label" for="customCheck3">Bubble Effect</label>
+            </div>
+            <div class="custom-control custom-checkbox mb-3 col">
+              <input type="checkbox" class="custom-control-input" id="customCheck4" name="example1">
+              <label class="custom-control-label" for="customCheck4">Fog Effect</label>
+            </div>
+        </div>
+
+        <!-- IMAGES -->
+
+          <div class="row text-center text-lg-left">
+
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="resources/reservation/musiclightshow.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="resources/reservation/projectionscreens.jpg" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="resources/reservation/bubbleeffect.png" alt="">
+                  </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-6">
+              <a href="#" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="resources/reservation/fogeffect.png" alt="">
+                  </a>
+            </div>
+
+          </div>
+
+
+         </fieldset>
+
+        <br/>
+
+        <div id="reset" style="">
+            <button type="submit" class="btn btn-primary" style="background-color: #a3297a; border-color: black;">Submit</button>
+            <button type="reset" class="btn btn-outline-dark">Reset</button>
+        </div>
+
+
+<!--
+        
+        <button class="btn btn-primary btn-lg btn-block" disabled>
+          <span class="spinner-grow spinner-grow-lg"></span>
+          Waiting for you...
+        </button>
+-->
+        
+
+        </form>
+
+        </div>
+
+
+        </section>
+        <!-- Footer -->
+      <div id="united">
+        <img id="pattern" src="resources/Slider/pattern.svg">
+    
+        <div class="social">
+            <ul class="social-list">
+                <li><a href="https://facebook.com/Ashurov.Islombek"><i class="fa fa-send-o"></i></a></li>
+                <li><a href="https://www.facebook.com/nusratillo.shavkatov"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCd-tWVKjAhb2xV_VxtNJafA?view_as=subscriber"><i class="fa fa-youtube-play"></i></a></li>
+                <li><a href="https://www.whatsapp.com"><i class="fa fa-whatsapp"></i></a></li>
+                <li><a href="https://www.skype.com"><i class="fa fa-skype"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+
+        <!-- Back to button -->
+        <a href="#home" id="back-to-top" class="btn btn-sm btn-vignit btn-back-to-top smooth-scroll">
+            <i class="fa fa-angle-up"></i>
+        </a>
+        <!-- Footer -->
+        <section class="text-center">
+            <div class="footervisol">
+                <ul>
+                    <li><img src="Resources/footer/footer_fl1.svg" alt=""></li>
+                    <li class="visolsvg"><img src="Resources/logo.png" alt=""></li>
+                    <li><img src="Resources/footer/footer_fl2.svg" alt=""></li>
+                </ul>
+            </div>
+            
+            <!-- Copyright -->
+            
+        </section>
+     </div> 
+        <footer>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>
+                           Copyright &copy; 2019. All Rights Reserved By <span>Phoenix Team</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- JQuery -->
+    <script src="javascript/jquery.js"></script>
+    <!-- Custom JS -->
+    <script src="javascript/script.js"></script>
+    <!-- Carousel -->
+    <script src="javascript/carousel/jquery-migrate-3.0.0.min.js"></script>
+    <!-- Defaul Scroller -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="javascript/carousel/jquery.backstretch.min.js"></script>
+</body>
